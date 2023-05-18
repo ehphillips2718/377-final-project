@@ -11,7 +11,7 @@ void Bank::print_accounts() {
       if (++acc.readers == 1) acc.write_lock.lock();
     }
     
-    std::cout << "ID# " << id << " | " << acc.balance << "\n";
+    if (acc.open) std::cout << "ID# " << id << " | " << acc.balance << "\n";
 
     {
       // Automatically unlocks when destroyed.
