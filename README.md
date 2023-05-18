@@ -2,6 +2,10 @@
 
 ## Functionality
 
+### Link to Presentation:
+
+[Presentation](https://drive.google.com/file/d/1dlZsuQJ8FUttAjJOfM-QN9HDs1_erdOH/view?usp=sharing)
+
 ### Running the App
 
 To run the program, you need to execute
